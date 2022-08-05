@@ -36,6 +36,7 @@ class mytest extends Command
      */
     public function handle()
     {
-        $this->info('命令行调试');
+        $date = date('Y-m-d H:i:s');
+        dump($date);
     }
 }
